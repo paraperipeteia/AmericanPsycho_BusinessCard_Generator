@@ -22,4 +22,4 @@ will export the results via the save button to a JPG file in your downloads fold
 
 *** IF YOU WANT TO USE LOCALLY, RUN WITH LOCALHOST OR THE FONT WILL NOT LOAD AND BREAK THE PROGRAM! ***
 
-Conversely, if you want to edit the code so it does not rely on a call to loadFont, you can do so if you wish. 
+Conversely, if you want to edit the code so it does not rely on a call to P5's ```loadFont```, you can do so if you wish.  
