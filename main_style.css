@@ -1,0 +1,163 @@
+h1
+{
+    display: flex;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #222222;
+    color: #f8f9fa;
+    align-items: center;
+    justify-content: center;
+    position: center;
+    text-align: center;
+}
+
+#form
+{
+    display: flex;
+    widht: 100%;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.card-body
+{
+    display: flex;
+    padding: 0px;
+    margin: 100px;
+    color: #343a40;
+    width: 1000px;
+    height: 650px;
+    justify-content: center;
+    background-color: #999999;
+}
+
+label
+{
+    display: flex;
+    width: 150px;
+    padding: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #AAAAAA;
+}
+
+input
+{
+    display: flex;
+    padding: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #AAAAAA;
+    background-color: #343a40;
+    border: 4px solid #222222;
+    border-radius: 6px;
+}
+
+button
+{
+    display: inline-block;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #AAAAAA;
+    background-color: #343a40;
+    border: 3px solid #222222;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button:hover
+{
+    background-color: #AAAAAA;
+    color: #343a40;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+    width: 90%;
+    height: 100%;
+}
+
+.card-header
+{
+    display: flex;
+    width: 20vw;
+    height: 80vh;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #343a40;
+    border-radius: 10px;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    display:inline-block;
+    flex-direction: row;
+    width: 40px;
+    height:40px;
+    padding: 15px;
+    background:222222;
+    border-radius:5px;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    border:2px solid #555;
+}
+
+input[type='checkbox']:checked {
+    background: #ff0000;
+}
+
+.email
+{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    flex-direction: row;
+    padding: 1px;
+    color: #AAAAAA;
+    background-color: #343a40;
+    border: 0px solid #222222;
+    border-radius: 0px;
+}
+
+
+#checkSpan
+{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 12%;
+    flex-direction: row;
+    padding: 2px;
+    color: #AAAAAA;
+    align-items: center;
+}
+
+

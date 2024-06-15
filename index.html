@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>American Psycho - Business Card Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.js"></script>
+        <link rel="stylesheet" type="text/css" href="main_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+    <body bgColor="222222">
+        <div class="container">
+            <h1 class="animate__animated animate__fadeInDown">American Psycho - Business Card Generator</h1>
+            <div class="card">    
+                <div class="card-header">
+                    <form id="form" class="animate__animated animate__fadeInUp">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                            <br>
+                            <label for="company">Company:</label>
+                            <input type="text" id="company" name="company" class="form-control" required>
+                            <br>
+                            <label for="phone">Phone:</label>
+                            <input type="text" id="phone" name="phone" class="form-control" required>
+                            <br>
+                            <label for="duties">Duties:</label>
+                            <input type="text" id="duties" name="duties" class="form-control" required>
+                            <br>
+                            <label for="position">Position:</label>
+                            <input type="text" id="position" name="position" class="form-control" required>
+                            <br>
+                            <label for="street">Address:</label>
+                            <input type="text" id="street" name="street" class="form-control" required>
+                            <br>
+                            <label for="cityAndState">City & State:</label>
+                            <input type="text" id="cityAndState" name="cityAndState" class="form-control" required>
+                            <br>
+                            <label for="zip">Zip:</label>
+                            <input type="text" id="zip" name="zip" class="form-control" required>
+                            <br>
+                            <label id="faxLabel" for="fax">Fax:</label>
+                            <input type="text" id="fax" name="fax" class="form-control" required>
+                            <br>
+                            <label id="telexLabel" for="telex">Telex:</label>
+                            <input type="text" id="telex" name="telex" class="form-control" required>
+                            <br>
+                            <button id="generate" type="submit" class="btn btn-primary">Generate</button>
+                            <button id="save" type="button" class="btn btn-primary">Save</button>
+                            <span id="checkSpan">
+                                <label id="useEmailLabel" for="useEmail">Use Email</label>
+                                <input type="radio" id="useEmail" name="useType" value="use email" class="form-control">
+                                <label id="useFaxLabel" for="useFax">Use Fax</label>
+                                <input type="radio" id="useFax" name="useType" value="use fax" class="form-control" checked="checked">
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <div id="canvasParent" class="card-body"></div>
+            </div>
+    </body> 
+</html>
